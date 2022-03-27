@@ -1,0 +1,51 @@
+# Emacs Keybindings
+Assuming that you are use evil-mode 
+
+## Fundamental
+* C-x C-c - save and exit emacs
+* :wq - save and exit buffer 
+
+
+## Buffer
+* C-x C-b - list buffer
+
+## Windows
+* C-x 3 - split window
+* C-x 0 - delite window 
+* C-x o - move cursor to other window
+
+## Dired
+* C-x d - Open dired
+* C-x C-f - list file
+* return - open
+* ( - hide properties
+* C-x <left> - jump back
+* C-x M-o - omit mode
+* g - refresh
+* q - go bask
+* d - mark delete
+* x - execute (delete)
+* + - creat directory
+* C - Copy
+* d x - Rename/Move
+* D - delete
+* SPC-. - create new file
+*  */ (t for togel between files and dir) - selecting files
+* m - select
+* U - unselect all
+* u - unselect
+* R - rename to or move
+* i (:w) - edit rename file
+* SPC-o - back
+
+## Term
+* C-c C-j - Switch to line mode
+* C-c C-k - Switch to char mode
+* C-c C-c - Send a literal C-c to the sub-shell
+* C-c char - This is equivalent to C-x char in normal Emacs
+* C-c C-q - Toggle the page-at-a-time feature
+
+
+## Mode spesific
+### Latex
+* C-c C-e (TAB) - Create template enviroment, TAB autocompleates and list (ex: itemize) 

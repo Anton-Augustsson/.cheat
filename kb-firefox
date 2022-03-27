@@ -1,0 +1,70 @@
+# Firefox keybindings
+Assuming that you have vim vixen
+
+## Basic
+* :  - command mode
+* a  - add bookmark
+* gf - page source
+* <S-­ESC> - toggle addon
+* gi - focus input
+* H  - navigate in history backwards
+* L  - navigate in history forward
+* zi - zoom in
+* zo - zoom out
+* zz - zoom neutral
+* m  - set mark prefix
+* '  - set jump mark prefix
+
+## Url and link navigation
+* gU - navigate to url's base
+* gu - navigate to parent url
+* y  - yank url
+* p  - paste url
+* P  - paste url in new tab and alter
+* [[ - navigate to next link
+* ]] - navigate to previous link
+
+## Scrolling
+* 0 - scroll home
+* k - scroll up
+* j - scroll down
+* h - scroll left
+* l - scroll right
+* <C-­u> - scroll half page up
+* <C-­d> - scroll half page down
+* <C-­b> - scroll full page up
+* <C-­f> - scroll full page down
+* gg -  scroll top
+* G  - scroll bottom
+* $  - scroll to end
+
+## Windows
+* w - open window don't alter
+* W - open window and alter
+
+## Search and find mode
+* / - search mode
+* n - search next
+* N - search previous
+* f - find mode
+* F - find mode open new tab
+
+## Tabs
+* b  - open buffer/tab menu
+* t  - open new tab but don't alter
+* T  - open new tab and alter
+* d  - close tab
+* !d - force close tab
+* u  - reopen tab
+* K or gT - previous tab
+* J or gt - next tab
+* g0 - first tab
+* g$ - last tab
+* <C-­6> - tab select previous
+* r  - reload tab
+* R  - reload tab with cache
+* zp - toggle pinned tab
+* zd - duplicate tab
+
+Based on vim vixen firefox addon Cheat Sheet by mutanclan
+https://cheatography.com/mutanclan/cheat-sheets/vim-vixen-firefox-addon/
