@@ -5,45 +5,45 @@ Assuming that you are use evil-mode
 * C-x C-c - save and exit emacs
 * :wq - save and exit buffer 
 
-
-## Buffer
+#Buffer
 * C-x C-b - list buffer
 
 ## Windows
-* C-x 3 - split window
-* C-x 0 - delite window 
-* C-x o - move cursor to other window
+* C-w h - move to left window
+* C-w l - move to right window
+* C-w j - move to window above
+* C-w k - move to window below
+* C-w v - create window vertically
+* C-w S - create window horizontal
+* C-w q - remove window
 
-## Dired
-* C-x d - Open dired
-* C-x C-f - list file
-* return - open
-* ( - hide properties
-* C-x <left> - jump back
-* C-x M-o - omit mode
-* g - refresh
-* q - go bask
-* d - mark delete
-* x - execute (delete)
-* + - creat directory
-* C - Copy
-* d x - Rename/Move
+## Ranger
+* zh - show hidden files 
+* h - go out of dir
+* l - go in to dir or open file
+* j - go to file or dir below
+* k - go to file or dir above
+* t - toggle mark/unmark 
+* :mkdir - new dir
+* :toutch - new file
+* R - rename
 * D - delete
-* SPC-. - create new file
-*  */ (t for togel between files and dir) - selecting files
-* m - select
-* U - unselect all
-* u - unselect
-* R - rename to or move
-* i (:w) - edit rename file
-* SPC-o - back
 
 ## Term
-* C-c C-j - Switch to line mode
-* C-c C-k - Switch to char mode
-* C-c C-c - Send a literal C-c to the sub-shell
-* C-c char - This is equivalent to C-x char in normal Emacs
-* C-c C-q - Toggle the page-at-a-time feature
+You can just juse normal vim kebindings to navigate trew the output.
+To write a command just use "i".   
+* i - Switch to line mode
+* shift insert - Past to terminal
+
+## Magit
+- M-x magit-checkout <branch name> - Checkout a spesific branch
+- M-x magit-branch_and_checkout <branch from> <branch new> - Checkout a spesific branch
+- M-x magit-pull - runs git pull 
+- M-x magit-status - show the git status
+-- s - to stage
+-- i - ignore 
+-- c c - commit before
+-- C-c C-c - commit
 
 
 ## Mode spesific

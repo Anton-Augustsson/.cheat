@@ -1,6 +1,11 @@
 # Firefox keybindings
 Assuming that you have vim vixen
 
+## Stared keybindings
+* g - to go to tab
+* zi/zo - zoom in/out
+
+
 ## Basic
 * :  - command mode
 * a  - add bookmark
