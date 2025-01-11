@@ -71,6 +71,7 @@
 * u - undo
 * Ctrl + r - redo
 * . - repeat last command
+* v gq - make long line into multiple lines
 
 ## Marking text (visual mode)
 * v - start visual mode, mark lines, then do a command (like y-yank)

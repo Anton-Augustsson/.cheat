@@ -1,0 +1,9 @@
+# VSCode key bindings
+
+## Panel
+* Ctrl + j - close panel
+* Ctrl + Shift + j - maxemize panel size
+* Ctrl + ` - open/close terminal
+* Ctrl + ` - open/close terminal
+* Ctrl + n - workbench.action.nextPanelView
+* Ctrl + Shift + n - workbench.action.previousPanelView
